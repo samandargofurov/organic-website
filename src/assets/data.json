@@ -1,0 +1,131 @@
+[
+    {
+      "category": "Vegetable",
+      "image": "/src/assets/cardImages/broccoli.png",
+      "title": "Calabrese Broccoli",
+      "oldPrice": "$20.00",
+      "newPrice": "$13.00",
+      "rating": 5
+    },
+    {
+      "category": "Fresh",
+      "image": "/src/assets/cardImages/bananas.png",
+      "title": "Fresh Banana Fruites",
+      "oldPrice": "$20.00",
+      "newPrice": "$14.00",
+      "rating": 5
+    },
+    {
+      "category": "Millets",
+      "image": "/src/assets/cardImages/nuts.png",
+      "title": "White Nuts",
+      "oldPrice": "$20.00",
+      "newPrice": "$15.00",
+      "rating": 5
+    },
+    {
+      "category": "Vegetable",
+      "image": "/src/assets/cardImages/tomatos.png",
+      "title": "Calabrese Broccoli",
+      "oldPrice": "$20.00",
+      "newPrice": "$17.00",
+      "rating": 5
+    },
+    {
+      "category": "Vegetable",
+      "image": "/src/assets/cardImages/bean.png",
+      "title": "Calabrese Broccoli",
+      "oldPrice": "$20.00",
+      "newPrice": "$11.00",
+      "rating": 5
+    },
+    {
+      "category": "Vegetable",
+      "image": "/src/assets/cardImages/hazelnut.png",
+      "title": "Calabrese Broccoli",
+      "oldPrice": "$20.00",
+      "newPrice": "$12.00",
+      "rating": 5
+    },
+    {
+      "category": "Vegetable",
+      "image": "/src/assets/cardImages/eggs.png",
+      "title": "Calabrese Broccoli",
+      "oldPrice": "$20.00",
+      "newPrice": "$17.00",
+      "rating": 5
+    },
+    {
+      "category": "Vegetable",
+      "image": "/src/assets/cardImages/russianBread.png",
+      "title": "Calabrese Broccoli",
+      "oldPrice": "$20.00",
+      "newPrice": "$15.00",
+      "rating": 5
+    },
+    {
+      "category": "Vegetable",
+      "image": "/src/assets/cardImages/shopCucumber.png",
+      "title": "Calabrese Broccoli",
+      "oldPrice": "$20.00",
+      "newPrice": "$11.00",
+      "rating": 5
+    },
+    {
+      "category": "Vegetable",
+      "image": "/src/assets/cardImages/newHazelnut.png",
+      "title": "Calabrese Broccoli",
+      "oldPrice": "$20.00",
+      "newPrice": "$12.00",
+      "rating": 5
+    },
+    {
+      "category": "Vegetable",
+      "image": "/src/assets/cardImages/corn.png",
+      "title": "Calabrese Broccoli",
+      "oldPrice": "$20.00",
+      "newPrice": "$17.00",
+      "rating": 5
+    },
+    {
+      "category": "Vegetable",
+      "image": "/src/assets/cardImages/almonds.png",
+      "title": "Calabrese Broccoli",
+      "oldPrice": "$20.00",
+      "newPrice": "$15.00",
+      "rating": 5
+    },
+    {
+      "category": "Vegetable",
+      "image": "/src/assets/cardImages/broccoliMungBean.png",
+      "title": "Calabrese Broccoli",
+      "oldPrice": "$20.00",
+      "newPrice": "$11.00",
+      "rating": 5
+    },
+    {
+      "category": "Vegetable",
+      "image": "/src/assets/cardImages/cucumber.png",
+      "title": "Calabrese Broccoli",
+      "oldPrice": "$20.00",
+      "newPrice": "$12.00",
+      "rating": 5
+    },
+    {
+      "category": "Vegetable",
+      "image": "/src/assets/cardImages/onion.png",
+      "title": "Calabrese Broccoli",
+      "oldPrice": "$20.00",
+      "newPrice": "$17.00",
+      "rating": 5
+    },
+    {
+      "category": "Vegetable",
+      "image": "/src/assets/cardImages/cabbage.png",
+      "title": "Calabrese Broccoli",
+      "oldPrice": "$20.00",
+      "newPrice": "$17.00",
+      "rating": 5
+    }
+  ]
+  
