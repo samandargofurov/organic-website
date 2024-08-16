@@ -33,7 +33,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="container mx-auto max-w-[1000px] flex justify-between mb-32">
+        <div className="container mx-auto max-w-[1050px] flex justify-between mb-32">
           <div className="border-r-2 pr-10 text-end flex flex-col gap-5">
             <h1 className="text-[#274C5B] font-bold text-2xl">Contact Us</h1>
             <div className="flex flex-col gap-2">
@@ -102,7 +102,7 @@ const Footer = () => {
                   <NavLink to="/">Style Guide</NavLink>
                 </li>
                 <li className="hover:text-[#58656bb9]">
-                  <NavLink to="/">404 Not Found</NavLink>
+                  <NavLink to="*">404 Not Found</NavLink>
                 </li>
                 <li className="hover:text-[#58656bb9]">
                   <NavLink to="/">Password Protected</NavLink>

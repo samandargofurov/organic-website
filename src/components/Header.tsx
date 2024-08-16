@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <>
       <div className="bg-white sticky top-0 left-0 right-0 z-50">
-        <div className="container mx-auto">
+        <div className="container mx-auto max-w-[1350px]">
           <div className="header ml-14 mr-14 pt-6 pb-6 flex items-center justify-between">
             <NavLink to="/">
               <div className="logo flex items-center gap-2 cursor-pointer">
@@ -18,7 +18,7 @@ const Header = () => {
                   alt="organic logo icon"
                 />
                 <span className="font-bold text-3xl text-[#274C5B]">
-                  Organic
+                  Organick
                 </span>
               </div>
             </NavLink>
@@ -46,10 +46,10 @@ const Header = () => {
                   <NavLink to="/shop">Shop</NavLink>
                 </li>
                 <li>
-                  <NavLink to="#">Projects</NavLink>
+                  <NavLink to="/projects">Projects</NavLink>
                 </li>
                 <li>
-                  <NavLink to="#">News</NavLink>
+                  <NavLink to="/news">News</NavLink>
                 </li>
               </ul>
             </div>

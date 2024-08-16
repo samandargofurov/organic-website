@@ -1,10 +1,15 @@
 import arrow from "../../assets/icon/Vector.svg";
 import star from "../../assets/icon/Star.svg";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import data from "../../assets/data.json";
 
 const CategoriesSection = () => {
-  const categoriesFilter = data.slice(0, 8);
+  const categoriesFilter = data.products.slice(0, 8);
+  const navigate = useNavigate();
+
+  const handleRedirect = (id?: any) => {
+    navigate(`/shopSingle/${id}`);
+  };
 
   return (
     <>
@@ -18,31 +23,31 @@ const CategoriesSection = () => {
         {/* cards */}
         <div className="flex flex-wrap items-center justify-center gap-5">
           {categoriesFilter.map((el, index) => (
-            <div key={index} className="bg-[#F9F8F8] p-5 rounded-3xl">
+            <div key={index} className="bg-[#F9F8F8] w-[247px] p-5 rounded-3xl">
               <span className="bg-[#274c5b] text-white px-4 py-2 text-xs rounded-lg">
                 {el.category}
               </span>
-              <div>
+              <div onClick={() => handleRedirect(el.id)}>
                 <img
-                  className="drop-shadow-4xl w-[207.51px] h-56"
+                  className="drop-shadow-4xl cursor-pointer w-[207px] h-56"
                   src={el.image}
                   alt={el.title}
                 />
               </div>
               <div className="flex flex-col gap-4">
-                <h6 className="text-[#274C5B] font-bold text-lg">{el.title}</h6>
+                <h6 className="text-[#274C5B] font-bold text-md">{el.title}</h6>
                 <div className="flex items-center justify-between border-t-2 border-[#DEDDDD] pt-2">
                   <div className="flex items-center gap-2">
-                    <p className="text-sm text-[#B8B8B8] line-through">
+                    <p className="text-xs text-[#B8B8B8] line-through">
                       {el.oldPrice}
                     </p>
-                    <p className="text-md font-semibold text-[#274C5B]">
+                    <p className="text-sm font-semibold text-[#274C5B]">
                       {el.newPrice}
                     </p>
                   </div>
                   <div className="flex items-center gap-1">
                     {Array.from({ length: el.rating }, (_, i) => (
-                      <img key={i} src={star} alt="" width={15} />
+                      <img key={i} src={star} alt="" className="cursor-pointer" width={13} />
                     ))}
                   </div>
                 </div>

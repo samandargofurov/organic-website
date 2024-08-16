@@ -1,5 +1,7 @@
-[
+{
+  "products": [
     {
+      "id": 1,
       "category": "Vegetable",
       "image": "/src/assets/cardImages/broccoli.png",
       "title": "Calabrese Broccoli",
@@ -8,6 +10,7 @@
       "rating": 5
     },
     {
+      "id": 2,
       "category": "Fresh",
       "image": "/src/assets/cardImages/bananas.png",
       "title": "Fresh Banana Fruites",
@@ -16,6 +19,7 @@
       "rating": 5
     },
     {
+      "id": 3,
       "category": "Millets",
       "image": "/src/assets/cardImages/nuts.png",
       "title": "White Nuts",
@@ -24,6 +28,7 @@
       "rating": 5
     },
     {
+      "id": 4,
       "category": "Vegetable",
       "image": "/src/assets/cardImages/tomatos.png",
       "title": "Calabrese Broccoli",
@@ -32,6 +37,7 @@
       "rating": 5
     },
     {
+      "id": 5,
       "category": "Vegetable",
       "image": "/src/assets/cardImages/bean.png",
       "title": "Calabrese Broccoli",
@@ -40,6 +46,7 @@
       "rating": 5
     },
     {
+      "id": 6,
       "category": "Vegetable",
       "image": "/src/assets/cardImages/hazelnut.png",
       "title": "Calabrese Broccoli",
@@ -48,6 +55,7 @@
       "rating": 5
     },
     {
+      "id": 7,
       "category": "Vegetable",
       "image": "/src/assets/cardImages/eggs.png",
       "title": "Calabrese Broccoli",
@@ -56,6 +64,7 @@
       "rating": 5
     },
     {
+      "id": 8,
       "category": "Vegetable",
       "image": "/src/assets/cardImages/russianBread.png",
       "title": "Calabrese Broccoli",
@@ -64,6 +73,7 @@
       "rating": 5
     },
     {
+      "id": 9,
       "category": "Vegetable",
       "image": "/src/assets/cardImages/shopCucumber.png",
       "title": "Calabrese Broccoli",
@@ -72,6 +82,7 @@
       "rating": 5
     },
     {
+      "id": 10,
       "category": "Vegetable",
       "image": "/src/assets/cardImages/newHazelnut.png",
       "title": "Calabrese Broccoli",
@@ -80,6 +91,7 @@
       "rating": 5
     },
     {
+      "id": 11,
       "category": "Vegetable",
       "image": "/src/assets/cardImages/corn.png",
       "title": "Calabrese Broccoli",
@@ -88,6 +100,7 @@
       "rating": 5
     },
     {
+      "id": 12,
       "category": "Vegetable",
       "image": "/src/assets/cardImages/almonds.png",
       "title": "Calabrese Broccoli",
@@ -96,6 +109,7 @@
       "rating": 5
     },
     {
+      "id": 13,
       "category": "Vegetable",
       "image": "/src/assets/cardImages/broccoliMungBean.png",
       "title": "Calabrese Broccoli",
@@ -104,6 +118,7 @@
       "rating": 5
     },
     {
+      "id": 14,
       "category": "Vegetable",
       "image": "/src/assets/cardImages/cucumber.png",
       "title": "Calabrese Broccoli",
@@ -112,6 +127,7 @@
       "rating": 5
     },
     {
+      "id": 15,
       "category": "Vegetable",
       "image": "/src/assets/cardImages/onion.png",
       "title": "Calabrese Broccoli",
@@ -120,6 +136,7 @@
       "rating": 5
     },
     {
+      "id": 16,
       "category": "Vegetable",
       "image": "/src/assets/cardImages/cabbage.png",
       "title": "Calabrese Broccoli",
@@ -127,5 +144,156 @@
       "newPrice": "$17.00",
       "rating": 5
     }
+  ],
+  "slider":[
+    {
+      "id": 1,
+      "name": "Sara Taylor",
+      "role": "Consumer",
+      "text": "Another dummy text for the second testimonial. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum one drive",
+      "image": "/src/assets/icon/womanIcon.svg"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "role": "Consumer",
+      "text": "Another dummy text for the second testimonial. Lorem Ipsum is simply dummy text of the printing",
+      "image": "/src/assets/icon/woman2.svg"
+    },
+    {
+      "id": 3,
+      "name": "John Doe",
+      "role": "Consumer",
+      "text": "Another dummy text for the second testimonial. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "image": "/src/assets/icon/man.svg"
+    }
+  ],
+  "news": [
+    {
+      "id": 1,
+      "date": "25",
+      "month": "Nov",
+      "image": "/src/assets/newsImages/newsCardsImages/barg.png",
+      "icon": "/src/assets/icon/Icon.svg",
+      "name": "By Rachi Card",
+      "title": "The Benefits of Vitamin D & How to Get It",
+      "description": "Simply dummy text of the printing and typesetting industry. Lorem Ipsum"
+    },
+    {
+      "id": 2,
+      "date": "25",
+      "month": "Nov",
+      "image": "/src/assets/newsImages/newsCardsImages/tomatos.png",
+      "icon": "/src/assets/icon/Icon.svg",
+      "name": "By Rachi Card",
+      "title": "Our Favorite Summertime Tomato",
+      "description": "Simply dummy text of the printing and typesetting industry. Lorem Ipsum"
+    },
+    {
+      "id": 3,
+      "date": "25",
+      "month": "Nov",
+      "image": "/src/assets/newsImages/newsCardsImages/vegetables.png",
+      "icon": "/src/assets/icon/Icon.svg",
+      "name": "By Rachi Card",
+      "title": "Benefits of Vitamin C & How to Get It",
+      "description": "Simply dummy text of the printing and typesetting industry. Lorem Ipsum"
+    },
+    {
+      "id": 4,
+      "date": "25",
+      "month": "Nov",
+      "image": "/src/assets/newsImages/newsCardsImages/farmer.png",
+      "icon": "/src/assets/icon/Icon.svg",
+      "name": "By Rachi Card",
+      "title": "Research More Organic Foods",
+      "description": "Simply dummy text of the printing and typesetting industry. Lorem Ipsum"
+    },
+    {
+      "id": 5,
+      "date": "25",
+      "month": "Nov",
+      "image": "/src/assets/newsImages/newsCardsImages/farmerWoman.png",
+      "icon": "/src/assets/icon/Icon.svg",
+      "name": "By Rachi Card",
+      "title": "Everyday Fresh Fruites",
+      "description": "Simply dummy text of the printing and typesetting industry. Lorem Ipsum"
+    },
+    {
+      "id": 6,
+      "date": "25",
+      "month": "Nov",
+      "image": "/src/assets/newsImages/newsCardsImages/pollution.png",
+      "icon": "/src/assets/icon/Icon.svg",
+      "name": "By Rachi Card",
+      "title": "Don’t Use Plastic Product! it’s Kill Nature",
+      "description": "Simply dummy text of the printing and typesetting industry. Lorem Ipsum"
+    }
+  ],
+  "team": [
+    {
+      "id": 1,
+      "image": "/src/assets/teamImages/man1.png",
+      "name": "Giovani Bacardo",
+      "job": "Farmer",
+      "icons": {
+        "fb": "/src/assets/icon/Fb.svg",
+        "x": "/src/assets/icon/Twiter.svg"
+      }
+    },
+    {
+      "id": 2,
+      "image": "/src/assets/teamImages/woman1.png",
+      "name": "Marianne Loreno",
+      "job": "Designer",
+      "icons": {
+        "insta": "/src/assets/icon/Insta.svg",
+        "fb": "/src/assets/icon/Fb.svg",
+        "x": "/src/assets/icon/Twiter.svg"
+      }
+    },
+    {
+      "id": 3,
+      "image": "/src/assets/teamImages/woman2.png",
+      "name": "Riga Pelore",
+      "job": "Farmer",
+      "icons": {
+        "insta": "/src/assets/icon/Insta.svg",
+        "fb": "/src/assets/icon/Fb.svg",
+        "x": "/src/assets/icon/Twiter.svg"
+      }
+    },
+    {
+      "id": 4,
+      "image": "/src/assets/teamImages/man1.png",
+      "name": "Keira Knightley",
+      "job": "Farmer",
+      "icons": {
+        "fb": "/src/assets/icon/Fb.svg",
+        "x": "/src/assets/icon/Twiter.svg"
+      }
+    },
+    {
+      "id": 5,
+      "image": "/src/assets/teamImages/man1.png",
+      "name": "Scott Lawrence",
+      "job": "Designer",
+      "icons": {
+        "insta": "/src/assets/icon/Insta.svg",
+        "fb": "/src/assets/icon/Fb.svg",
+        "x": "/src/assets/icon/Twiter.svg"
+      }
+    },
+    {
+      "id": 6,
+      "image": "/src/assets/teamImages/man1.png",
+      "name": "Karen Allen",
+      "job": "Farmer",
+      "icons": {
+        "insta": "/src/assets/icon/Insta.svg",
+        "fb": "/src/assets/icon/Fb.svg",
+        "x": "/src/assets/icon/Twiter.svg"
+      }
+    }
   ]
-  
+}

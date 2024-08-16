@@ -8,7 +8,7 @@ const HeroSection = () => {
         <div className="container mx-auto max-w-[1440px]">
           <div className="relative top-0 left-0">
             <img src={Banner} alt="img" />
-            <div className="absolute top-44 left-48">
+            <div className="absolute top-[183px] left-[182px]">
               <h4 className="font-[YellowTail] text-2xl text-[#68A47F]">
                 100% Natural Food
               </h4>
@@ -16,13 +16,13 @@ const HeroSection = () => {
                 Choose the best <br /> healthier way <br /> of life
               </p>
               <NavLink to="/explore">
-                <button className="flex items-center gap-2 text-sm font-bold text-[#274C5B] bg-[#EFD372] transition-all duration-300 hover:bg-transparent hover:border-2 hover:pt-[18px] hover:pl-[25px] hover:pr-[25px] hover:pb-[18px] rounded-2xl pt-[16px] pl-[24px] pr-[24px] pb-[16px]">
+                  <button className="flex items-center gap-2 text-sm font-bold text-[#274c5b] duration-200 bg-[#EFD372] border-2 border-transparent hover:bg-transparent hover:text-[#274c5b] hover:border-2 hover:border-[#274c5b] rounded-2xl px-[28px] py-[18px]">
                   Explore Now
-                  <div className="bg-[#274C5B] inline-block rounded-full p-1">
-                    <img src={arrow} alt="" width={12} height={12} />
-                  </div>
-                </button>
-              </NavLink>
+                    <div className="bg-[#335B6B] inline-block rounded-full p-1">
+                      <img src={arrow} alt="" />
+                    </div>
+                  </button>
+                </NavLink>
             </div>
           </div>
         </div>

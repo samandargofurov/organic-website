@@ -8,6 +8,21 @@ export default {
           "-20px 20px 10px rgba(0, 0, 0, 0.25)"
         ],
       },
+      fontSize: {
+        "4xl": [
+          "40px"
+        ]
+      },
+      letterSpacing: {
+        tightest: '-.075em',
+        tighter: '-.05em',
+        tight: '-.025em',
+        normal: '0',
+        wide: '.1em',
+        wider: '.05em',
+        widest: '.1em',
+        widest: '.25em',
+      }
     },
   },
   plugins: [],

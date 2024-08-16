@@ -1,9 +1,11 @@
 import { useState, useEffect } from "react";
 import background3 from "../../assets/homeImages/background3.png";
 import star from "../../assets/icon/Star.svg";
-import testimonials from '../../assets/slide.json'
+import data from "../../assets/data.json"
 
 const TestimonialSection = () => {
+  const testimonials = data.slider
+
   const [currentSlide, setCurrentSlide] = useState(0);
 
   useEffect(() => {
