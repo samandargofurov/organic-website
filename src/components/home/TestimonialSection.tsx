@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import background3 from "../../assets/homeImages/background3.png";
+import background3 from "../../assets/homeImages/Background3.png";
 import star from "../../assets/icon/Star.svg";
 import data from "../../assets/data.json"
 
