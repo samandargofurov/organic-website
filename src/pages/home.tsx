@@ -1,7 +1,6 @@
 import juice from "../assets/homeImages/juice.png";
 import food from "../assets/homeImages/food.png";
 import cookies from "../assets/homeImages/cookis.png";
-
 import HeroSection from "../components/home/HeroSection";
 import CategoriesSection from "../components/home/CategoriesSection";
 import TestimonialSection from "../components/home/TestimonialSection";
